@@ -1,0 +1,250 @@
+@media (min-width:0px)and (max-width:540px){
+    header .nav .click-nav {
+    display: block;
+    width: 78px;
+    text-align:  right;
+    padding-right:  15px;
+    color: #1c4361;
+    margin-top: 13px;
+    margin-left: -40px;
+    background: hsl(210, 18%, 55%);
+    height: 30px;
+    line-height: 32px;
+    font-size: 21px;
+    border-radius:  15px;
+    cursor: pointer;
+}
+header .nav .list .who-we-are{
+    display: none;
+}
+.nav .list ul.list-inline li{
+    display: block;
+}
+header .nav .list{
+    height: inherit;
+    line-height: 33px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    display: none;
+}
+header .nav .list ul.list-inline li .list-unstyled {
+    position: relative;
+    display: none;
+}
+header .nav .list ul.list-inline li:hover .list-unstyled {
+    position: relative;
+    display: block;
+
+}
+.slider {
+     margin-top: 30px; 
+     margin-bottom: 10px; 
+}
+ #owl-carousel-1{
+    height: inherit;
+ }
+ .about-me{
+    margin-top: 10px
+ }
+ .owl-nav .owl-prev {
+    position: absolute;
+    top: 90px;
+    font-size: 62px;
+}
+ .owl-nav .owl-next{
+    position: absolute;
+    top: 90px;
+    font-size: 62px;
+ }
+ .slider-header-all-ditals {
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.about-me .img-about-us{
+    margin-bottom: 20px;
+}
+
+.who-we-are-about .who-we-are-about-title {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+.who-we-are-about-coneect{
+    text-align: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+.out-projects-info .owl-nav{
+    display: none;
+}
+footer{
+    text-align: center;
+}
+footer .footer-detils{
+    text-align: center;
+    margin-top: 30px;
+}
+}
+/*Smart phone and tablets*/
+@media (min-width:541px) and (max-width:767px){
+        header .nav .click-nav {
+    display: block;
+    width: 78px;
+    text-align:  right;
+    padding-right:  15px;
+    color: #1c4361;
+    margin-top: 13px;
+    margin-left: -40px;
+    background: hsl(210, 18%, 55%);
+    height: 30px;
+    line-height: 32px;
+    font-size: 21px;
+    border-radius:  15px;
+    cursor: pointer;
+}
+header .nav .list .who-we-are{
+    display: none;
+}
+.nav .list ul.list-inline li{
+    display: block;
+}
+header .nav .list{
+    height: inherit;
+    line-height: 33px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    display: none;
+}
+header .nav .list ul.list-inline li .list-unstyled {
+    position: relative;
+    display: none;
+}
+header .nav .list ul.list-inline li:hover .list-unstyled {
+    position: relative;
+    display: block;
+
+}
+.slider {
+     margin-top: 30px; 
+     margin-bottom: 10px; 
+}
+ #owl-carousel-1{
+    height: inherit;
+ }
+ .about-me{
+    margin-top: 10px
+ }
+ .owl-nav .owl-prev {
+    position: absolute;
+    top: 90px;
+    font-size: 62px;
+}
+ .owl-nav .owl-next{
+    position: absolute;
+    top: 90px;
+    font-size: 62px;
+ }
+ .slider-header-all-ditals {
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.about-me .img-about-us{
+    margin-bottom: 20px;
+}
+
+.who-we-are-about .who-we-are-about-title {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+.who-we-are-about-coneect{
+    text-align: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+.out-projects-info .owl-nav{
+    display: none;
+}
+footer{
+    text-align: center;
+}
+footer .footer-detils{
+    text-align: center;
+    margin-top: 30px;
+}
+}
+ 
+@media (min-width:768px) and (max-width:991px){
+    header .nav .list {
+    position: relative;
+    background: #8c919280;
+    padding: 0px 10px;
+    height: 90px;
+    line-height: 90px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: -271px;
+    color: #fff;
+    padding-left: 85px;
+}
+header{
+    width: 100%;
+}
+header .nav .list ul.list-inline li a {
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 0px;
+    }
+.out-projects-info .owl-nav
+    {
+        display: none;
+    }
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    header .nav .list ul.list-inline li a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0px 2px;
+    /* display: inline-block; */
+    /* height: 32px; */
+    transition: .3s ease-in-out;
+}
+    header .nav .list {
+
+    padding-left: 85px;
+    }
+    .out-projects-info .owl-nav
+    {
+        display: none;
+    }
+
+}
+@media (min-width:1200px) and (max-width:1299px){
+    .out-projects-info .owl-nav .owl-prev {
+    position: absolute;
+    right: -23px;
+    top: 31%;
+    font-size: 54px;
+    color: #bfc1c2;
+    direction: inherit;
+}
+.out-projects-info .owl-nav .owl-next{
+    position: absolute;
+    left: -23px;
+    top: 31%;
+    font-size: 54px;
+    color: #bfc1c2;
+    direction: inherit;
+}
+}
